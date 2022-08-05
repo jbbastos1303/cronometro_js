@@ -1,0 +1,58 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body{
+  margin-top: 10%;  
+  display: flex;
+  flex-direction: column;  
+}
+
+span{
+  font-size: 30px;
+}
+
+.divCron{
+  border-style: ridge;
+}
+
+h1{
+  font-size: 50px;
+}
+
+.sectionBtn{
+   text-align: center;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-family: 'Segoe UI';
+  font-size: 1.5em;
+  transition: all .5s;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.btn:hover {
+  background-color: #a1c0d1;
+}
+
+.btn:active {
+  background-color: #111;
+}
+
+.green{
+  background-color: #b2d1a1;
+}
+
+.yellow{
+  background-color: gold;
+}
+
+.red{
+  background-color: lightcoral;
+}
